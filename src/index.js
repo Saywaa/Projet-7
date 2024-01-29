@@ -11,7 +11,7 @@ ReactDOM.render(
                 <Route path="/" element={<Home />} />
                 <Route path="*" element={<Error />} />
             </Routes>
-                  </Router>
+        </Router>
     </React.StrictMode>,
 document.getElementById('root')
 )
