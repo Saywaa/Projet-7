@@ -1,8 +1,8 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import Error from './pages/Error'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Error from './pages/Error';
 
 ReactDOM.render(
     <React.StrictMode>

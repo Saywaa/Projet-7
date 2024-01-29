@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-export default function Error() {
+function Error() {
     return (
         <div>
             <p>404</p>
@@ -13,3 +13,5 @@ export default function Error() {
         </div>
     );
 }
+
+export default Error;
