@@ -7,7 +7,7 @@ function Error() {
             <p>
                 Oups! La page que vous demandez n'existe pas.
             </p>
-            <Link to="/">
+            <Link to="/home">
                 Retourner sur la page d'accueil
             </Link>
         </div>
