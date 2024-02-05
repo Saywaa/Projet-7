@@ -4,8 +4,8 @@ import logo from "../../assets/images/logo/footerLogo.png";
 function Footer () {
     return (
         <footer className="footer">
-            <img src={logo} alt="Logo de l'agence immobilière Kasa"/>
-            <p>
+            <img className="footer__logo" src={logo} alt="Logo de l'agence immobilière Kasa"/>
+            <p className="footer__copyrightText">
                 © 2020 Kasa. All rights reserved
             </p>
         </footer>

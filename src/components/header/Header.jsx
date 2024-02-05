@@ -3,8 +3,8 @@ import Nav from "../nav/Nav";
 
 function Header() {
     return (
-        <header>
-            <figure>
+        <header className="header">
+            <figure className="header__fig">
                 <img src={logo} alt="Logo de l'agence immobilière Kasa"/>
             </figure>
             <Nav />

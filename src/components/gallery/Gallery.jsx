@@ -5,7 +5,7 @@ import logements from "../../datas/logements.json";
 
 function Gallery () {
     return (
-        <div>
+        <div className="gallery">
             {logements.map((logement) => {
                 return (
                     <article key={logement.id}>

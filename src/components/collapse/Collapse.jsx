@@ -7,14 +7,14 @@ function Collapse ({ content, title }) {
     }
     return (
         <div>
-            <div>
+            <div className="collapse__dropdown__title">
                 <h2>{title}</h2>
                 <p onClick={display}>
-                    {isOpen ? (<i></i>) : (<i></i>)}
+                    {isOpen ? (<i className="fa-solid fa-chevron-up"></i>) : (<i className="fa-solid fa-chevron-down"></i>)}
                 </p>
             </div>
             {}
-            <div>
+            <div className="collapse__dropdown__content">
                 {isOpen && <p>{content}</p>}
             </div>
         </div>
