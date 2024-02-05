@@ -9,13 +9,6 @@ $linear-cards: linear-gradient(
     rgba(0, 0, 0, 0.5) 100%
 );
 
-$about-background: $background-color
-    url(../../assets/images/banner/aboutBanner.png);
-$about-background-mobile: $background-color
-    url(../../assets/images/banner/backgroundbannermobile.png);
-$banner-background: $background-color
-    url(../../assets/images/banner/homeBanner.png);
-
 $breakpoints: (
     small: 350px,
     medium: 768px,

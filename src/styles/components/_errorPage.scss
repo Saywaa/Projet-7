@@ -6,7 +6,7 @@
         @include flex-center;
 
         @include font(96px, 700);
-        margin: 12rem 0 1rem 0;
+        margin: 5rem 0 1rem 0;
 
         @media screen and (min-width: $breakpoint-desktop) {
             @include font(288px, 700);
@@ -30,7 +30,7 @@
         color: $primary-color;
 
         @include font(14px, 500);
-        margin: 3rem 0 2rem 0;
+        margin: 3rem 0 5rem 0;
 
         @media screen and (min-width: $breakpoint-desktop) {
             @include font(18px, 500);
