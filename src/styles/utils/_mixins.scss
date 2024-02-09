@@ -1,18 +1,3 @@
-@mixin body-position {
-    max-width: 768px;
-    min-width: 375px;
-    margin: auto;
-}
-
-@mixin linear-gradient {
-    background: linear-gradient(rgba(255, 255, 255, 0) 0%, #00000080);
-}
-
-@mixin WH-full {
-    width: 100%;
-    height: 100%;
-}
-
 @mixin font-right($size) {
     font-size: $size;
     font-style: normal;
@@ -61,46 +46,6 @@
     width: 100%;
     @include bkgrd($banner-background);
     margin-top: 20px;
-}
-
-@mixin rightArrow-style {
-    display: flex;
-    position: absolute;
-    font-size: 1.5rem;
-    top: 42%;
-    right: 2%;
-    width: 12px;
-    height: 20px;
-    z-index: 10;
-    cursor: pointer;
-    color: $tertiary-color;
-
-    @media screen and (min-width: $breakpoint-desktop) {
-        width: 47px;
-        height: 79px;
-        top: 42%;
-        font-size: 4.5rem;
-    }
-}
-
-@mixin leftArrow-style {
-    display: flex;
-    position: absolute;
-    font-size: 1.5rem;
-    top: 42%;
-    left: 2%;
-    height: 20px;
-    width: 12px;
-    z-index: 10;
-    cursor: pointer;
-    color: $tertiary-color;
-
-    @media screen and (min-width: $breakpoint-desktop) {
-        width: 47px;
-        height: 79px;
-        top: 42%;
-        font-size: 4.5rem;
-    }
 }
 
 @mixin media-query($key) {

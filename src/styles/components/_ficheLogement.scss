@@ -1,0 +1,89 @@
+.ficheContainer {
+    color: $primary-color;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.ficheLogement {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.description {
+    @include flex-column;
+    &__titletags {
+        @include flex-column;
+        &__title {
+            @include flex-column;
+            margin-bottom: 15px;
+            &__font {
+                @include font(18px, 500);
+            }
+            &__place {
+                @include font(14px, 500);
+            }
+        }
+        &__tags {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+        }
+    }
+    @media screen and (min-width: $breakpoint-desktop) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &__titletags {
+            @include flex-column;
+            margin-bottom: 30px;
+            &__title {
+                @include flex-column;
+                &__font {
+                    @include font(36px, 500);
+                    display: flex;
+                    align-items: flex-end;
+                }
+                &__place {
+                    @include font(18px, 500);
+                    display: flex;
+                    align-items: flex-end;
+                }
+            }
+        }
+    }
+    &__host {
+        @extend %flex-rowReverse;
+        @media screen and (min-width: $breakpoint-desktop) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__name {
+            @extend %flex-rowCenter;
+        }
+        &__rating {
+            @include flex-end;
+        margin-top: 20px;
+        }
+    }
+}
+
+.descriptionCollapse {
+    width: 100%;
+    @include flex-column;
+    @media screen and (min-width: $breakpoint-desktop) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &__description {
+            width: 50%;
+            padding-right: 40px;
+        }
+        &__equipments {
+            width: 50%;
+            padding-left: 40px;
+        }
+    }
+}

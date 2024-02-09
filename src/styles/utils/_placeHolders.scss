@@ -30,18 +30,6 @@
     align-items: center;
 }
 
-%flex-rowBetween {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-%flex-rowAround {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 %flex-rowReverse {
     display: flex;
     flex-direction: row-reverse;

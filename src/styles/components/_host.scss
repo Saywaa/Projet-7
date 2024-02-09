@@ -1,0 +1,14 @@
+.hostName {
+    @include font(18px, 500);
+    margin-right: 10px;
+    text-align: right;
+    width: 93px;
+    position: relative;
+    bottom: 23px;
+    }
+.hostImage {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}

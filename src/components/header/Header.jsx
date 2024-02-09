@@ -1,7 +1,7 @@
 import logo from "../../assets/images/logo/kasaLogo.svg";
 import Nav from "../nav/Nav";
 
-function Header() {
+function Header () {
     return (
         <header className="header">
             <figure className="header__fig">
