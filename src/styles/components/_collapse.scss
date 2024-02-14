@@ -38,7 +38,7 @@
             @media screen and (min-width: $breakpoint-desktop) {
                 width: 100%;
             }
-            p {
+            div {
                 @include font(20px, 400);
                 color: $primary-color;
                 margin: 0 auto;

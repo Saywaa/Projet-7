@@ -15,7 +15,7 @@ function Collapse ({ content, title }) {
             </div>
             {}
             <div className="collapse__dropdown__content">
-                {isOpen && <p>{content}</p>}
+                {isOpen && <div>{content}</div>}
             </div>
         </div>
     )

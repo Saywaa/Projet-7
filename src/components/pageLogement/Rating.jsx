@@ -6,7 +6,7 @@ function Rating (props) {
     const rating = props.score;
     const stars = [1, 2, 3, 4, 5];
     return (
-        <div>
+        <div className='starsContainer'>
             {stars.map((star) =>
                 rating >= star ? (<img className='stars' key={star.toString()} src={fullStar} alt="Étoile remplie"/>) : (<img className='stars' key={star.toString()} src={emptyStar} alt="Étoile vide"/>)
             )}
