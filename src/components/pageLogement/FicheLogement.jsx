@@ -12,14 +12,14 @@ function FicheLogement () {
     const ficheLogement = DataLogements.find((logement) => logement.id === id);
     const tagsLogement = ficheLogement?.tags.map((tags, i) => {
         return <Tag key={i} name={tags} />;
-    });
+    })
     const equipements = ficheLogement?.equipments.map((equipment, i) => {
         return (
             <ul key={i}>
                 <li>{equipment}</li>
             </ul>
         )
-    });
+    })
     return (
         <div>
             {ficheLogement ? (

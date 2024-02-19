@@ -11,7 +11,7 @@ function Error () {
                 Retourner sur la page d'accueil
             </Link>
         </div>
-    );
+    )
 }
 
 export default Error;

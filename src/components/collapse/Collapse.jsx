@@ -13,7 +13,6 @@ function Collapse ({ content, title }) {
                     {isOpen ? (<i className="fa-solid fa-chevron-up"></i>) : (<i className="fa-solid fa-chevron-down"></i>)}
                 </p>
             </div>
-            {}
             <div className="collapse__dropdown__content">
                 {isOpen && <div>{content}</div>}
             </div>

@@ -13,7 +13,7 @@ function Gallery () {
                             <Card image={logement.cover} title={logement.title} />
                         </Link>
                     </article>
-                );
+                )
             })}
         </div>
     )

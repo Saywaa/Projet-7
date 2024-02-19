@@ -6,7 +6,7 @@ function Error() {
         <main>
             <ErrorComponent />
         </main>
-    );
+    )
 }
 
 export default Error;

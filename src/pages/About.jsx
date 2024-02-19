@@ -15,7 +15,7 @@ function About () {
                         <div key={item.id}>
                             <Collapse content={item.content} title={item.title} />
                         </div>
-                        );
+                        )
                     })}
                 </div>
             </div>

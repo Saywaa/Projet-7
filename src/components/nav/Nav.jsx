@@ -11,7 +11,7 @@ function Nav() {
                 A Propos
             </Link>
         </nav>
-    );
-};
+    )
+}
 
 export default Nav;

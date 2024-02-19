@@ -9,7 +9,7 @@ function Header () {
             </figure>
             <Nav />
         </header>
-    );
+    )
 }
 
 export default Header;
